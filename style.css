@@ -2,12 +2,14 @@ h1{
     text-align: center;
 }
 h1{
-    color:blue
+    color:rgb(255, 51, 0)
 
 }
-h2{color:red}
+h2{color:rgb(20, 19, 19)}
 h3{color:goldenrod}
 #knapp1{
     margin; 10px
 }
-
+body{
+    background-color: beige;
+}
