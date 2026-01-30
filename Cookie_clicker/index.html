@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clicker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <main>
+        <section id="buyMenu">
+            <p id="clickPow"></p>
+            <div onclick="add10Click()" id="buyCard">
+                <p>buy one click</p>
+                <p>10$</p>
+            </div>
+        </section>
+        <section id="bulbcont">
+            <div id="bulbClick" onclick="clickBulb()">
+                <img src="./img/cookie.webp" alt="Cookie" >
+            </div>
+            <div id="counter-container">
+                <p id="money-counter">0</p><p>$</p>
+            </div>
+        </section>
+    </main>
+    </body>
+</html>

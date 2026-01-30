@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(39, 71, 65);
+    width: 100vw;
+    height: 100vh;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bulbClick {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+#counter-container {
+    width: 350px;
+    height: 75px;
+    background-color: rgb(153, 215, 171);
+    color: black;
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#bulbcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 800px;
+    height: fit-content;
+}
+#buyMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153, 215, 171);
+    width: 30%;
+    height: 100vh;
+}
+
+#buyCard {
+background-color: rgb(39, 71, 65);
+color: white;
+font-size: 32px;
+border-radius: 20px;
+padding: 25px 17px;
+}
